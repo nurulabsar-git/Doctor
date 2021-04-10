@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonial from '../../Testimonial/Testimonial';
 import AppointMent from '../AppointMent/AppointMent';
 import ExceptionalDental from '../ExceptionalDental/ExceptionalDental';
 import Header from '../Header/Header';
@@ -10,6 +11,7 @@ const Home = () => {
             <Services></Services>
             <ExceptionalDental></ExceptionalDental>
             <AppointMent></AppointMent>
+            <Testimonial></Testimonial>
         </div>
     );
 };
